@@ -27,3 +27,4 @@
 ## ignore emacs files and the main pdf file
 auto
 main.pdf
+doc.tex
