@@ -25,6 +25,18 @@ attempt to work on this rural broadband education project.
 3. Some easy to understand visualization or demonstration of network
    technologies to normal people.
 
+# Related Work
+## Courses
+- [Berkeley CS168](http://www-inst.eecs.berkeley.edu/~cs168/fa14/)
+- [Stanford CS144](http://www.scs.stanford.edu/11au-cs144/)
+- [MIT 6.829](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-829-computer-networks-fall-2002/index.htm)
+
+## Online Resources
+- [Australia Goverment](http://www.internetbasics.gov.au/what_can_you_do_on_the_internet/start_here)
+
+## Cool Tools
+- If you use Chrome, you can now throttle your network manually to experience what it means for Dial-up users or other networks. See [instructions](http://stackoverflow.com/questions/10328568/simulate-limited-bandwidth-from-within-chrome).
+
 # Misc
 Side notes from Colin:
 
