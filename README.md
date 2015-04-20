@@ -3,4 +3,6 @@
     cd report
     make
 
-You will need `latex` and `pandoc` set up properly to see the generated document.
+You will need `latex` set up properly to see the generated PDF file.
+
+See [proposal](proposal.md) for our early discussions.
