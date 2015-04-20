@@ -7,10 +7,7 @@ SOURCES = $(wildcard *.tex) $(wildcard *.bib)
 
 default: pdf
 
-pandoc:
-	pandoc -f markdown -t latex README.md > doc.tex
-
-pdf: pandoc $(SOURCES)
+pdf: $(SOURCES)
 	$(LATEX) $(TEX); $(BIBTEX) $(TEX); $(LATEX) $(TEX); $(LATEX) $(TEX)
 
 single-pass: $(SOURCES)
@@ -27,3 +24,5 @@ check:
 clean:
 	$(RM) -rf *.aux *.blg *.dvi *.log *.toc *.lof *.lot *.cb *.bbl \
 		$(TEX).ps $(TEX).pdf *~ *.out auto/ *.ent doc.tex
+
+.PHONY: pdf single-pass view check clean
