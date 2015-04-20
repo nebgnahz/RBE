@@ -13,4 +13,4 @@ You will need `latex` set up properly to see the generated PDF file.
 
 ## Misc
 
-See [proposal](proposal.md) for our early discussions.
+See [proposal](proposal.md) for our earlier discussions.
