@@ -28,3 +28,5 @@
 auto
 main.pdf
 doc.tex
+
+*.bak
