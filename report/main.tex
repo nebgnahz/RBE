@@ -29,6 +29,8 @@
 \usepackage{usenix}
 \usepackage{tablefootnote}
 \usepackage{textcomp}
+\usepackage[toc,page]{appendix}
+\usepackage{titlesec}
 
 \hypersetup{
   colorlinks=true,
@@ -96,8 +98,27 @@ Abstract goes here.
 
 %% \theendnotes
 
-\end{document}
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries}% <- font for label "Appendix A", default \huge
+  {\chaptertitlename\ \thechapter}
+  {10pt}
+  {\Small}% <- font for title, default \Huge
 
+\begin{appendices}
+\newpage
+
+% TODO(cs): figure this out.
+% http://tex.stackexchange.com/questions/128044/size-of-the-appendix-title-for-report
+\chapter{}
+\begin{figure*}[b]
+    %\hspace{-10pt}
+    \fbox{\includegraphics[width=7in]{../assets/flier-2.pdf}}
+    \caption[]{\label{fig:flyer} Request for interviewees Flyer.}
+\end{figure*}
+
+\end{appendices}
+
+\end{document}
 
 %%% Local Variables:
 %%% mode: latex
