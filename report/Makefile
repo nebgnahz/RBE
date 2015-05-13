@@ -1,5 +1,5 @@
 TEX = main
-LATEX = pdflatex
+LATEX = xelatex
 DVIPDF = dvipdfm
 SPELL = aspell
 BIBTEX = bibtex
