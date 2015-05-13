@@ -21,17 +21,18 @@
 
 % This version uses the latex2e styles, not the very ancient 2.09 stuff.
 \documentclass[letterpaper,twocolumn,10pt]{article}
-\usepackage{epsfig}
 \usepackage{endnotes}
+\usepackage{enumerate}
+\usepackage{epsfig}
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
 \usepackage{lipsum}
-\usepackage{usenix}
+\usepackage{microtype}
 \usepackage{tablefootnote}
 \usepackage{textcomp}
-\usepackage[toc,page]{appendix}
 \usepackage{titlesec}
-\usepackage{enumerate}
+\usepackage[toc,page]{appendix}
+\usepackage{usenix}
 
 \hypersetup{
   colorlinks=true,
@@ -47,6 +48,8 @@
 
 %don't want date printed
 \date{}
+
+\def\subsectionautorefname{Section}
 
 %make title bold and 14 pt font (Latex default is non-bold, 16 pt)
 \title{\Large \bf (Mis)perceptions of Broadband Services in Mendocino County
